@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Data Files (Local Parquet & CSV)
+*.parquet
+*.csv
+air_quality_data/
+
+# JSON Metadata (Data-derived)
+ingestion_progress.json
+found_locations.json
+pca_metadata.json
+parameters.json
+
+# Scratch Files / Logs
+verify_output.txt
+verify_data.py
+final_integrity_audit.py
+compare_counts.py
+*verify*.py
+
+# IDEs
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
