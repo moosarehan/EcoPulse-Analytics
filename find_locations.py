@@ -2,14 +2,7 @@ import requests
 import json
 import time
 
-import os
-try:
-    from dotenv import load_dotenv
-    load_dotenv()
-except ImportError:
-    pass
-
-API_KEY = os.getenv("OPENAQ_API_KEY")
+API_KEY = "ced5766c0b12839dd00bc649401c8ec3e13c3b4ca97605438819d6d8e65b7106"
 BASE_URL = "https://api.openaq.org/v3"
 
 headers = {
